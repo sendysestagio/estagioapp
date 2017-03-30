@@ -19,7 +19,7 @@ exports.principal = function(args) {
         alert("BUTTON 2");
     })
 
-    var btn3 = new btnModule.Button();
+    var btn3 = new btnModule.Button(); // como vai isso
     btn3.text = "Definições";
     btn3.on(btnModule.Button.tapEvent, function(){
         alert("BUTTON 3");
